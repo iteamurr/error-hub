@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "error-hub"
+version = "0.1.0"
+description = ""
+authors = ["iteamurr <iteamurr@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = "^3.1.1"
+flask-restful = "^0.3.10"
+pymongo = "^4.13.0"
+gunicorn = "^23.0.0"
+python-dotenv = "^1.1.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pyclean = "^3.1.0"
+ruff = "^0.11.13"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.lint]
+select = ["E501", "I"]
