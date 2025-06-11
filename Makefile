@@ -26,4 +26,4 @@ env:
 # Create and launch service containers.
 .PHONY: up
 up:
-	docker compose up -d
+	docker compose up -d --build
