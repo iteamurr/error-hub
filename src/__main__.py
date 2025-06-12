@@ -5,7 +5,7 @@ import src.infrastructure.config.config as app_config
 import src.infrastructure.config.setups as setups
 
 
-def get_app():
+def get_app() -> flask.Flask:
     app = flask.Flask(__name__)
     api = flask_restful.Api(app)
 
