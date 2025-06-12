@@ -45,4 +45,4 @@
    make up
    ```
 
-4. API будет доступно по адресу `http://localhost:${FLASK_PORT}` (по умолчанию `5000`).
+4. API будет доступно по адресу `http://localhost:${FLASK_PORT}` (по умолчанию `8000`).
